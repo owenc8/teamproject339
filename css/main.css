@@ -161,18 +161,27 @@ code {
 /* Styling for the navigation button */
 .button-nav {
   display: inline-block;
-  padding: 0.75rem;
-  border-radius: 30px;
-  color: white;
-  background-color: rgb(93,56,0);
-  text-decoration-color: white;
+  
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  color: rgb(0, 0, 0);
+  background-color: none;
+  padding-inline: 1rem;
   text-decoration: none;
-  transition-property: background-color; 
-  transition-duration: 0.5s;
+  font-weight: 400;
+  transition-property: border-bottom-color; 
+  
+  border-bottom-style: solid;
+  border-bottom-color: rgb(150, 90, 0);
+  
+  
+ 
+  transition-duration: 0.3s;
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: rgb(239, 176, 125)
+  
+  border-bottom-color:rgb(39, 39, 39);
 }
 
 body #wrapper #container form label {
