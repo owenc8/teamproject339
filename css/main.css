@@ -1,0 +1,231 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+@font-face {
+  font-family: cardoFont;
+  src: url(font/Cardo-Regular.ttf);
+}
+
+@font-face {
+  font-family: cormorantFont;
+  src: url(font/CormorontSC-Bold.ttf);
+}
+
+@font-face {
+  font-family: pinyonFont;
+  src: url(font/PinyonScript-Regular.ttf);
+}
+
+div {
+  font-family: Lato ;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+body {
+  background: #fff0f7;
+  /* FF3.6-15 */
+  background: #fff0f7;
+  /* Chrome10-25,Safari5.1-6 */
+  background: #fff0f7;
+  height: auto;
+  min-height: calc(100vh);
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+body #wrapper {
+  height: 100vh;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+body #wrapper #container {
+  background: white;
+  height: 440px;
+  min-width: 600px;
+  width: 600px;
+  border-radius: 15px;
+  z-index: 1;
+  -webkit-box-shadow: 0px 3px 15px -1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 15px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px -1px rgba(0, 0, 0, 0.2);
+  }
+
+  body #wrapper #container #left-col {
+  width: 50%;
+  min-width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  padding-left: 10px;
+  float: left;
+  background: rgb(255,187,187);
+}
+
+body #wrapper #container #right-col {
+  width: 40%;
+  min-width: 240px;
+  height: 100%;
+  float: right;
+  background: #ffffff;
+}
+
+.container {
+  display: inline-flex;
+  flex-direct: row;
+  border-radius: 15px;
+  justify-content: space-around;
+  width:  100%;
+  height: 500px;
+}
+
+.container .block1 {
+    background-color: #ffffff;
+    width: 20%;
+    border-radius: 15px;
+  }
+
+.container .block2 {
+    background-color: #ffffff;
+    width: 20%;
+  }
+
+.container .block3 {
+    background-color: #ffffff;
+    width: 20%;
+  }
+
+h1 {
+  font-family: "pinyonFont";
+  margin-top: 1rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+h2 {
+  font-family: "cormorantFont";
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+h3 {
+  font-family: cormorantFont;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+h4 {
+  font-family: cormorantFont;
+  margin-bottom: 0.25rem;
+  margin-left: 1.5rem;
+}
+
+p {
+  font-family: Lato;
+  margin-top: 0;
+  margin-left: 2rem;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the In text Link */
+.text-link {
+  color: rgb(239, 176, 125);
+}
+
+.text-link:hover, .text-link:focus {
+  color: rgb(255,187,187);
+}
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.75rem;
+  border-radius: 30px;
+  color: white;
+  background-color: rgb(93,56,0);
+  text-decoration-color: white;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(239, 176, 125)
+}
+
+body #wrapper #container form label {
+  display: block;
+  padding: 6px;
+  font-family: "Lato", sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 14px 0 4px;
+}
+
+body #wrapper #container form input {
+  display: block;
+  padding: 6px 18px;
+  padding-left: 2rem;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  font-size: 0.9em;
+}
+
+body #wrapper #container form textarea {
+  display: block;
+  padding: 6px 8px;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  font-size: 0.9em;
+}
+
+body #wrapper #container form input#name {
+  width: calc(50% - 18px);
+}
+body #wrapper #container form input#email {
+  width: calc(50% - 18px);
+}
+body #wrapper #container form input#phone {
+  width: calc(50% - 18px);
+}
+
+body #wrapper #container form textarea#bigfield {
+  width: calc(100% - 18px);
+
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Charcaterie Style Guide</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>P01</h1><h2> Charcaterie Style Guide </h2>
+
+    </header>
+
+      <nav> 
+        <a class="button-nav" href="interactive_elements">Interactive Elements</a>      
+        <a class="button-nav" href="text_elements">Text Elements</a>
+        <a class="button-nav" href="#">Company & Branding</a>
+        <a class="button-nav" section id="combined_elements">Cat Listings</a>
+        <a class="button-nav" href="#">Apply Form</a>
+      </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h3>In-text link</h3>
+        This is a link to <a class = "text-link" href="https://en.wikipedia.org/wiki/Cheese">cheese</a> 
+
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+        <a class="button-nav" href="#">Submit</a>
+        <a class="button-nav" href="#">Reset</a>
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+
+//used http://html5doctor.com/ for this section
+        <form>
+          <label for="cheesetype">Favourite Cheese:</label>
+          <input type="text" id="cheesetype" name="cheesetype">
+        </form>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+        <input type="radio" id="Timeselection" name="timepick">
+        <label for="html">1:00pm</label>
+        <input type="radio" id="Timeselection" name="timepick">
+        <label for="html">2:00pm</label>
+        <input type="radio" id="Timeselection" name="timepick">
+        <label for="html">3:00pm</label>
+        <input type="radio" id="Timeselection" name="timepick">
+        <label for="html">4:00pm</label>
+      </section>
+
+
+
+    </section>
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+        <h2>Headings 1</h2>
+        <h3>Headings 2</h3>
+        <h4>Headings 3</h4>
+        <h5>Headings 4</h5>
+
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+   <section id="company_brand">
+    <h3>Logo</h3>
+   <img src="assets/charcat logo.png" alt="Logo" style="width:20%">
+
+   <h3>Palette<h3>
+  <img src="assets/palette.png" alt="Palette" style="width:40%">
+   </section>
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <a class="button-nav" href="#">Home</a>
+        <a class="button-nav" href="#">About Us</a>
+        <a class="button-nav" href="#">Our Cats</a>
+        <a class="button-nav" href="#">Menu</a>
+        <a class="button-nav" href="#">Book a Time</a>
+      </section>
+    </section>
+
+  <div class="container">
+  <div class="block1">
+  <img src="assets/billy.png" alt="Billy" style="width:100%">
+  <h1>Billy, 5yrs</h1>
+  <p>Energetic, friendly, & cuddly!</p>
+  <a class="button-nav" href="#">Apply to Adopt</a>
+</div>
+<div class="block2">
+  <img src="assets/pair.png" alt="DollyRose" style="width:100%">
+  <h1>Dolly & Rose, 8mos</h1>
+  <p>a bonded young, quirky pair</p>
+  <a class="button-nav" href="#">Apply to Adopt</a>
+</div>
+<div class="block3">
+  <img src="assets/petunia.jpg" alt="Petunia" style="width:100%">
+  <h1>Petunia, 3yrs</h1>
+  <p>Sweet and shy</p>
+
+  <a class="button-nav" href="#">Apply to Adopt</a>
+</div>
+    </div>
+
+<section id="apply_form">
+<br>
+<h2> Apply for Adoption Form </h2>
+
+      <div id="wrapper">
+      <div id="container">
+     <h3>Your Information</h3>
+      <div id="logotype">
+        <img id="charcat_logo" src="P1-Style_Guide_Process/assets/charcat_logo.png" alt="" />
+      </div>
+      
+      <form action="">
+        <div id="left-col">
+        <label for="">Full Name</label>
+        <input id="name" type="text" placeholder="John Doe" />
+          <label for="">Phone Number</label>
+          <input id="phone" type="text" placeholder="604-555-1234" />
+          <label for="">Email</label>
+          <input id="email" type="text" placeholder="john@gmail.com"/>
+        </div>
+        <div id="right-col">
+        <label for="">Household & Lifestyle</label>
+        <textarea name="bigfield" rows="5" placeholder="I work from home and have another cat and a young child, we are a very active and energetic house" ></textarea>
+        <br>
+        <a class="button-nav" href="#">Apply Now</a>
+      </form>
+        </div>
+      </div>
+    </div>
+   </section>
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        https://www.dailypaws.com/gear-apparel/cat-supplies/cat-clothing-accessories/cat-sweaters 
+
+        https://jonitrythall.com/flexbox-cheatsheet
+      </ul>
+
+    </section>
+  </body>
+</html>
