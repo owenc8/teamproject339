@@ -29,11 +29,9 @@ div {
 }
 
 body {
-  background: #fff0f7;
   /* FF3.6-15 */
-  background: #fff0f7;
   /* Chrome10-25,Safari5.1-6 */
-  background: #fff0f7;
+  background: #FFFDF5;
   height: auto;
   min-height: calc(100vh);
   font-family: "Lato", sans-serif;
