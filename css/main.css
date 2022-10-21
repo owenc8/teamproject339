@@ -243,7 +243,7 @@ body #wrapper #container form textarea#bigfield {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  font-family: 'Roboto';
+  
   width: 100%;
 }
  
@@ -254,14 +254,14 @@ body #wrapper #container form textarea#bigfield {
     color: black;
     stroke: rgb(34, 45, 44);
     width: 400px;
-    background-color:rgb(247, 255, 254);
+    
     font-family: 'Roboto';
     padding-inline: 2rem;
     padding-bottom: 1rem;
   }
   
   .listing-container > div {
-    font-family: 'Roboto';
+    
     background-color: rgb(255, 255, 255);
     stroke: rgb(0, 234, 218);
     color: black;
