@@ -176,7 +176,7 @@ code {
   transition-property: border-bottom-color; 
   
   border-bottom-style: solid;
-  border-bottom-color: rgb(150, 90, 0);
+  border-bottom-color: rgb(112, 255, 221);
   
   
  
@@ -186,6 +186,23 @@ code {
 .button-nav:hover, .button-nav:focus {
   
   border-bottom-color:rgb(39, 39, 39);
+}
+
+.button{
+  display: inline-block;
+ 
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  color:rgb(255, 255, 255);
+  border-radius: 15px;
+  background-color:rgb(255, 69, 114);
+  padding-inline: 1rem;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+.button:hover, .button:focus{
+  background-color: rgb(255, 143, 171);
 }
 
 body #wrapper #container form label {
