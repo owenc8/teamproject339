@@ -266,8 +266,9 @@ body #wrapper #container form textarea#bigfield {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  
-  width: 100%;
+  justify-content: space-between;
+  width: 95%;
+  margin-right: 1rem;
 }
  
  .listing-container {
@@ -276,9 +277,9 @@ body #wrapper #container form textarea#bigfield {
     flex-direction: column;
     color: black;
     stroke: rgb(34, 45, 44);
-    width: 400px;
+    width: 300px;
     
-    font-family: 'Roboto';
+    
     padding-inline: 2rem;
     padding-bottom: 1rem;
   }
@@ -286,7 +287,7 @@ body #wrapper #container form textarea#bigfield {
   .listing-container > div {
     
     background-color: rgb(255, 255, 255);
-    stroke: rgb(0, 234, 218);
+    
     color: black;
     width: 100%;
     padding-bottom: 1rem;
