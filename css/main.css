@@ -103,10 +103,12 @@ body #wrapper #container #right-col {
 
 h1 {
   font-family: "pinyonFont";
-  margin-top: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
-  color: rgb(112, 255, 221);
+  color: rgb(255, 69, 114);
   font-size: 4rem;
   
 }
@@ -115,7 +117,7 @@ h2 {
   font-family: "cormorantFont";
   margin-top: 1rem;
   margin-left: 1.5rem;
-  color: rgb(255, 69, 114);
+  color: rgb(112, 255, 221);
   font-size: 2rem;
 }
 
@@ -138,6 +140,10 @@ p {
   margin-left: 2rem;
 }
 
+nav {
+  justify-content: center;
+}
+
 nav a:hover, nav a:focus {
   text-decoration: none;
 }
@@ -148,6 +154,15 @@ code {
   display: block;
 }
 
+footer {
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  color: #FFFFFF;
+  margin-top: 5rem;
+  background-color: #301A4B;
+}
 
 /* 
   INTERACTIVE ELEMENTS -------------------
@@ -164,7 +179,8 @@ code {
 
 /* Styling for the navigation button */
 .button-nav {
-  display: inline-block;
+  /*display: inline-block;
+  float: right;*/
   
   padding: 0.5rem;
   margin-top: 0.25rem;
@@ -203,6 +219,10 @@ code {
 }
 .button:hover, .button:focus{
   background-color: rgb(255, 143, 171);
+}
+
+.text-center {
+  text-align: center;
 }
 
 body #wrapper #container form label {
