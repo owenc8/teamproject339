@@ -167,12 +167,14 @@ code {
 
 footer {
   width: 100%;
+  
   display: inline-block;
   margin: 2em 0;
-  height: 70px;
+  height: 150px;
   color: #FFFFFF;
   margin-top: 5rem;
   background-color: #301A4B;
+  margin-bottom: 0%;
 }
 
 /* 
@@ -192,7 +194,7 @@ footer {
 .button-nav {
   /*display: inline-block;
   float: right;*/
-  
+  font-family: "cormorantFont";
   padding: 0.5rem;
   margin-top: 0.25rem;
   color: rgb(0, 0, 0);
@@ -314,7 +316,8 @@ body #wrapper #container form textarea#bigfield {
     
     
     padding-inline: 5rem;
-    padding-bottom: 1rem;
+    
+    padding-bottom: 2rem;
     border: 0.1rem;
     border-color: #301A4B;
   }
@@ -326,6 +329,7 @@ body #wrapper #container form textarea#bigfield {
     color: black;
     width: 100%;
     padding-bottom: 1rem;
+    
     padding-inline: 3rem;
     text-align: center;
     line-height: 1rem;
