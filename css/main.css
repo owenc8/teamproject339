@@ -146,9 +146,13 @@ p {
 
 
 nav {
+  display: flex;
   justify-content: center;
   
+  
 }
+
+
 
 
 nav a:hover, nav a:focus {
@@ -163,12 +167,14 @@ code {
 
 footer {
   width: 100%;
+  
   display: inline-block;
   margin: 2em 0;
-  height: 70px;
+  height: 150px;
   color: #FFFFFF;
   margin-top: 5rem;
   background-color: #301A4B;
+  margin-bottom: 0%;
 }
 
 /* 
@@ -188,12 +194,13 @@ footer {
 .button-nav {
   /*display: inline-block;
   float: right;*/
-  
+  font-family: "cormorantFont";
   padding: 0.5rem;
   margin-top: 0.25rem;
   color: rgb(0, 0, 0);
   background-color: none;
-  padding-inline: 1rem;
+  padding-inline: 2rem;
+  margin-inline: 0.5rem;
   text-decoration: none;
   font-weight: 400;
   transition-property: border-bottom-color; 
@@ -291,10 +298,11 @@ body #wrapper #container form textarea#bigfield {
 /* service listings */
 .listing-group{
   display: flex;
+  
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-  width: 95%;
+  justify-content: center;
+  
   margin-right: 1rem;
 }
  
@@ -307,18 +315,24 @@ body #wrapper #container form textarea#bigfield {
     width: 300px;
     
     
-    padding-inline: 2rem;
-    padding-bottom: 1rem;
+    padding-inline: 5rem;
+    
+    padding-bottom: 2rem;
+    border: 0.1rem;
+    border-color: #301A4B;
   }
   
   .listing-container > div {
     
-    background-color: rgb(255, 255, 255);
+    background-color: #FFFDF5;
     
     color: black;
     width: 100%;
     padding-bottom: 1rem;
+    
     padding-inline: 3rem;
     text-align: center;
     line-height: 1rem;
+    border: 2rem;
+    border-color: #301A4B;
   }
