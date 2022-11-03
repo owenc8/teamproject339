@@ -310,7 +310,7 @@ body #wrapper #container form textarea#bigfield {
  
  .listing-container {
     display: flex;
-    
+    position: relative;
     flex-direction: column;
     color: black;
     stroke: rgb(34, 45, 44);
@@ -338,3 +338,41 @@ body #wrapper #container form textarea#bigfield {
     border: 2rem;
     border-color: #301A4B;
   }
+
+  /*menu stuff*/
+
+.content_img{
+ position: relative;
+ width: 300px;
+ height: 400px;
+ float: left;
+ margin-right: 10px;
+ padding-inline:  2rem;
+ margin-bottom: 7rem;
+}
+
+/* Child Text Container */
+.content_img div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background: rgb(255, 69, 114);
+ color: white;
+ margin-bottom: -30px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+.content_img:hover{
+ cursor: pointer;
+}
+
+.content_img:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.9; 
+}
