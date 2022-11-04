@@ -547,11 +547,11 @@ color: #FFFFFF;
 
 .opacity{
 
-  opacity: .7;
+  opacity: .6;
 }
 
 .centered-text{
   position:absolute;
   top: 50% ;
-  left: 50%;
+  left: 30%;
 }
