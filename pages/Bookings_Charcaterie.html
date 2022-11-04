@@ -27,37 +27,48 @@
   
 <h2>Book a Time</h2>
 
+<div class = "reservations">
+
 <div class = "card-form">
-  <div class = "cart-header">
-    <h3>Billing Information</h3>
-    <h3>Payment</h3>
-  </div>
+
 
   <div class = "card-fields">
-    <div class = "fields">
-      <label for="fname"><i class="text-entry"></i> Full Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="John Doe">
-      <label for="email"><i class="fa fa-envelope"></i> Email</label>
-      <input type="text" id="email" name="email" placeholder="john@example.com">
-      <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-      <input type="text" id="adr" name="address" placeholder="3562 Pine street">
-      <label for="city"><i class="fa fa-institution"></i> City</label>
-      <input type="text" id="city" name="city" placeholder="Vancouver">
+    <div>
+      <h3>Billing Information</h3>
+      <div class = "fields">
+      
+        <label for="fname" class = "label"> Full Name</label>
+        <input type="text" id="fname" name="firstname" class="text-entry" placeholder="John Doe">
+        <label for="email" class = "label"> Email</label>
+        <input type="text" id="email" name="email" class="text-entry" placeholder="john@example.com">
+        <label for="adr" class = "label"> Address</label>
+        <input type="text" id="adr" name="address"class="text-entry"  placeholder="3562 Pine street">
+        <label for="city" class = "label"> City</label>
+        <input type="text" id="city" name="city"class="text-entry"  placeholder="Vancouver">
+        <label for="city" class = "label"> Province</label>
+        <input type="text" id="prov" name="prov" class="text-entry" placeholder="British Columbia">
 
+      </div>
     </div>
-    <div class = "fields">
-      <label for="cname">Card holder name</label>
-      <input type="text" id="cname" name="cardname" placeholder="John Doe">
-      <label for="ccnum">Card number</label>
-      <input type="text" id="ccnum" name="cardnumber" placeholder="1234-5555-6789-1010">
-      <label for="expmonth">Expiry Month</label>
-      <input type="text" id="expmonth" name="expmonth" placeholder="October">
-      <label for="expyear">Expiry Year</label>
-      <input type="text" id="expyear" name="expyear" placeholder="2025">
+    <div>
+      <h3>Payment</h3>
+     <div class = "fields">
+      
+      <label for="cname" class = "label">Card holder name</label>
+      <input type="text" id="cname" name="cardname" class="text-entry" placeholder="John Doe">
+      <label for="ccnum" class = "label">Card number</label>
+      <input type="text" id="ccnum" name="cardnumber" class="text-entry" placeholder="1234-5555-6789-1010">
+      <label for="expmonth" class = "label">Expiry Month</label>
+      <input type="text" id="expmonth" name="expmonth" class="text-entry" placeholder="October">
+      <label for="expyear" class = "label">Expiry Year</label>
+      <input type="text" id="expyear" name="expyear" class="text-entry"  placeholder="2025">
+      <label for="expyear" class = "label">CVV</label>
+      <input type="text" id="CVV" name="CVV" class="text-entry" placeholder="123">
       
 
-  </div>
- 
+     </div>
+    </div>
+    
 
   </div>
   <div class="bottom-cart">
@@ -80,22 +91,38 @@
       <div class="Cart-Items">
         
         <div class="about">
-        <h3 class="title">2 Hours</h3>
-        <h3 class="subtitle">1x</h3>
+          <div class = "prices">
+          <div>
+            <h3 class="title">2 Hour visit</h3>
+            <h3 class="subtitle">Item 1</h3>
+         </div>
+
+         <div><h3>$20</h3></div>
         </div>
-        
-        <div class="prices">
-          <h3>$20</h3>
+        <div class = "prices">
+         <div>
+          <h3 class="title">2 Hour visit</h3>
+          <h3 class="subtitle">Item 2</h3>
+          </div>
+
+          <div><h3>$20</h3></div>
         </div>
 
-        
+        <div class="bottom-cart">        
+          <h4>Total: $40</h4>
+          
+        </div>
+        </div>
+
+
+
+       
 
         </div>
-        <div class="bottom-cart">
-          <a class="button" href="#">Confirm Items</a>
-          <p>Total: $20</p>
-        </div>
+        
   </div>
+</div>
+
 </div>
 
 </body>
