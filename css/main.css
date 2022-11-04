@@ -361,7 +361,7 @@ body #wrapper #container form textarea#bigfield {
     width: 50%;
     margin: 10px;
     border-style: solid;
-    border-width: 0.2rem;
+    border-width: 0.15rem;
     border-color: #301A4B;
   }
   .cart-box{
@@ -416,7 +416,7 @@ body #wrapper #container form textarea#bigfield {
     padding-top: 5px;
     line-height: 10px;
     font-size: 32px;
-    font-family: 'Roboto';
+    font-family: 'Cormorant';
     font-weight: 800;
     color: #202020;
    }
@@ -441,4 +441,52 @@ body #wrapper #container form textarea#bigfield {
     height: 100%;
     text-align: right;
    }
+
+
+   .card-form{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    background-color: #FFFDF5;
+    color: black;
+    width: 60%;
+    margin: 10px;
+    border-style: solid;
+    border-width: 0.15rem;
+    border-color: #301A4B;
+  }
+
+  .card-fields{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    background-color: #FFFDF5;
+    justify-content: space-between;
+    color: black;
+    width: 97%;
+    margin: 10px;
+    
+  }
+
+  .fields{
+    display: flex;
+    padding: 0 5%;
+    padding-bottom: 1.5rem;
+    flex: 50%;
+    justify-content: left;
+    flex-direction: column;
+    background-color: #FFFDF5;
+    color: black;
+  }
+
+.text-entry{
+  
+  
+  margin-top: 0.7rem;
+  background-color: #FFFFFF;
+  color: #301A4B;
+  padding-block: 0.5rem;
+}
+
+  
 
