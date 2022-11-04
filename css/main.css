@@ -528,5 +528,17 @@ body #wrapper #container form textarea#bigfield {
   justify-content: center;
 }
 
+.adopt{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width:80%;
+  justify-content: center;
+}
+
+.billy-text{
+  width:30em; 
+  margin-left:1rem ;
+}
   
 
