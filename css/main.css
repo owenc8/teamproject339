@@ -171,14 +171,12 @@ code {
 
 footer {
   width: 100%;
-  
   display: inline-block;
-  margin: 2em 0;
   height: 150px;
   color: #FFFFFF;
   margin-top: 5rem;
-  background-color: #301A4B;
-  margin-bottom: 0%;
+  padding-top: 3rem;
+  background-color: rgb(255, 69, 114);
 }
 
 /* 
@@ -542,7 +540,9 @@ body #wrapper #container form textarea#bigfield {
 }
   
 .link{
-color: #FFFFFF;
+
+  margin-left: 3rem;
+  color: #FFFFFF;
 }
 
 .opacity{
@@ -564,7 +564,7 @@ color: #FFFFFF;
  width: 300px;
  height: 400px;
  float: left;
- margin-right: 10px;
+ margin-right: 6px;
  padding-inline:  2rem;
  margin-bottom: 7rem;
 }
@@ -589,8 +589,8 @@ color: #FFFFFF;
 }
 
 .content_img:hover div{
- width: 150px;
- padding: 8px 15px;
+ width: 190px;
+ padding: 8px 18px;
  visibility: visible;
  opacity: 0.9; 
 }
