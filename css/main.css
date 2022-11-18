@@ -132,6 +132,7 @@ h2 {
 
 .h2para{
   margin-left: 10%;
+  font-size: 3.5rem;
 }
 
 .white{
@@ -165,6 +166,7 @@ p {
 }
 .left-indent{
 margin-left: 2rem;
+max-width: 100%;
 }
 
 
@@ -584,8 +586,18 @@ body #wrapper #container form textarea#bigfield {
 
 .centered-text{
   position:absolute;
-  top: 50% ;
-  left: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
 }
 
 
