@@ -271,7 +271,9 @@ footer {
 
 .text-center {
   text-align: center;
-  width: 100%;
+  
+
+
 }
 
 body #wrapper #container form label {
@@ -623,6 +625,7 @@ body #wrapper #container form textarea#bigfield {
  background: rgb(255, 69, 114);
  color: white;
  margin-bottom: -30px;
+ line-height: 2rem;
  font-family: sans-serif;
  opacity: 0;
  visibility: hidden;
@@ -635,7 +638,7 @@ body #wrapper #container form textarea#bigfield {
 }
 
 .content_img:hover div{
- width: 190px;
+ width: 210px;
  padding: 8px 18px;
  visibility: visible;
  opacity: 0.9; 
