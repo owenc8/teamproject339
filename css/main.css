@@ -190,6 +190,7 @@ nav a:hover, nav a:focus {
 
 .menubox{
   display: flex;
+  flex-wrap: wrap;
 
   justify-content: center;
 }
@@ -638,3 +639,24 @@ body #wrapper #container form textarea#bigfield {
  visibility: visible;
  opacity: 0.9; 
 }
+
+
+
+
+@media screen and (max-width: 468px) {
+  h1 {
+     font-size: 3.5rem;
+  }
+
+  .h2para, .white{
+    font-size: 1.75rem;
+ }
+
+
+}
+
+
+
+
+
+
