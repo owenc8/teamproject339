@@ -23,6 +23,20 @@
         <a class="button-nav" href="Bookings_Charcaterie.html">Reserve</a>
         <a class="button-nav" href="Contact_Charcaterie.html">Contact Us</a>
   </nav>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.querySelector("nav");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 
 <h2 class = "h2para">Available Cats</h2>
 

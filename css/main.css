@@ -135,14 +135,7 @@ h2 {
   font-size: 3.5rem;
 }
 
-.white{
-  font-family: "cormorantFont";
-  margin-top: 2.5rem;
-  margin-left: 1.5rem;
-  color: rgb(112, 255, 221);
-  font-size: 3.5rem;
-  font-weight: 400;
-}
+
 
 h3 {
   font-family: cormorantFont;
@@ -183,8 +176,10 @@ nav {
 
 .sticky {
   position: fixed;
-  top: 1rem;
+  top: 0;
   width: 100%;
+  background-color: #FFFDF5;
+  z-index: 10000;
 }
 
 
