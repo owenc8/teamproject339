@@ -122,12 +122,16 @@ h1 {
 }
 
 h2 {
-  font-family: "cormorantFont";
+  font-family: "josefine";
   margin-top: 2.5rem;
-  margin-left: 1.5rem;
+  /* margin-left: 1.5rem; */
   color: rgb(255, 69, 114);
   font-size: 3.5rem;
   font-weight: 400;
+}
+
+.h2para{
+  margin-left: 10%;
 }
 
 h3 {
@@ -144,8 +148,10 @@ h4 {
 }
 
 p {
-  font-family: "Lato";
-  margin-top: 0;
+  font-family: "Roboto";
+  font-weight: 300;
+  margin-top: 0.2rem;
+  font-size: 1.2rem;
   /* margin-left: 2rem; */
 }
 .left-indent{
@@ -171,6 +177,11 @@ nav a:hover, nav a:focus {
   text-decoration: none;
 }
 
+.menubox{
+  display: flex;
+
+  justify-content: center;
+}
 code {
   background-color: #EEE;
   padding: 0.5rem;
@@ -565,7 +576,7 @@ body #wrapper #container form textarea#bigfield {
 .centered-text{
   position:absolute;
   top: 50% ;
-  left: 30%;
+  left: 35%;
 }
 
 
