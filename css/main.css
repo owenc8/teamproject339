@@ -17,6 +17,11 @@
   src: url(font/PinyonScript-Regular.ttf);
 }
 
+@font-face{
+  font-family: "buttershine";
+  src: url("BUTTERSHINE SERIF.otf");
+}
+
 div {
   font-family: Lato ;
 }
@@ -102,7 +107,7 @@ body #wrapper #container #right-col {
   }
 
 h1 {
-  font-family: "pinyonFont";
+  font-family: "buttershine";
   margin-top: 5rem;
   margin-bottom: 5rem;
   text-align: center;
@@ -543,6 +548,10 @@ body #wrapper #container form textarea#bigfield {
 
   margin-left: 3rem;
   color: #FFFFFF;
+}
+
+.darkened{
+  filter: brightness(30%);
 }
 
 .opacity{
