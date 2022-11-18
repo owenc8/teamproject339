@@ -20,6 +20,9 @@
 @font-face{
   font-family: "buttershine";
   src: url("BUTTERSHINE SERIF.otf");
+
+  font-family: "josefine";
+  src: url("NT\ Josefine\ \(only\ personal\ use\).otf");
 }
 
 div {
@@ -107,7 +110,7 @@ body #wrapper #container #right-col {
   }
 
 h1 {
-  font-family: "buttershine";
+  font-family: "josefine";
   margin-top: 5rem;
   margin-bottom: 5rem;
   text-align: center;
