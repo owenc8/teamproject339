@@ -134,6 +134,15 @@ h2 {
   margin-left: 10%;
 }
 
+.white{
+  font-family: "cormorantFont";
+  margin-top: 2.5rem;
+  margin-left: 1.5rem;
+  color: rgb(112, 255, 221);
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
 h3 {
   font-family: cormorantFont;
   margin-top: 1rem;
