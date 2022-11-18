@@ -181,7 +181,11 @@ nav {
   
 }
 
-
+.sticky {
+  position: fixed;
+  top: 1rem;
+  width: 100%;
+}
 
 
 nav a:hover, nav a:focus {
