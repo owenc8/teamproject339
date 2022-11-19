@@ -659,7 +659,19 @@ body #wrapper #container form textarea#bigfield {
 }
 
 
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width:100%;
+  justify-content: center;
+}
 
+.about-text{
+  width:30em; 
+  margin-left:1rem ;
+  margin-right:1rem ;
+}
 
 
 
